@@ -3,6 +3,11 @@ from QAWithData.data_ingestion import load_data
 from QAWithData.embeddings import download_gemini_embedding
 from QAWithData.model_api import load_model
 
+headers = {
+    "authorization": st.secrets["GEMINI_API_KEY"],
+    "content-type": "application/json"
+}
+
 def main():
     st.set_page_config(page_title="QA with Custom Data", page_icon=":book:", layout="wide")
     st.markdown("""
