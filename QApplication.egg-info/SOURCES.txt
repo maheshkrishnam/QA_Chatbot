@@ -1,0 +1,9 @@
+setup.py
+QAWithData/__init__.py
+QAWithData/data_ingestion.py
+QAWithData/embeddings.py
+QAWithData/model_api.py
+QApplication.egg-info/PKG-INFO
+QApplication.egg-info/SOURCES.txt
+QApplication.egg-info/dependency_links.txt
+QApplication.egg-info/top_level.txt

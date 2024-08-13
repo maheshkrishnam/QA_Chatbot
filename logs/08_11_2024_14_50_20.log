@@ -1,0 +1,6 @@
+[2024-08-11 14:51:13,020] 17 root - INFO - data loading started...
+[2024-08-11 14:51:13,053] 20 root - INFO - data loading completed...
+[2024-08-11 14:51:16,060] 141 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-08-11 14:51:20,040] 141 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-08-11 14:51:25,066] 141 google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-08-11 14:51:25,067] 338 google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
