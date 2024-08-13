@@ -72,15 +72,11 @@ def main():
                     progress_bar.progress(50)
                     
                     st.success("Here's what we found:")
+                    st.write(f"You asked: **{user_question}**")
                     st.write(response.response)
                     progress_bar.progress(75)
-                    
-                    st.markdown("### Additional Information")
-                    st.write(f"You asked: **{user_question}**")
-                    st.write(f"Response: {response.response}")
 
                     progress_bar.progress(100)
-                    st.balloons()
 
             else:
                 st.error("Please upload a file and enter a question.")
