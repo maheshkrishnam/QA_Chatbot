@@ -1,4 +1,4 @@
-# College Assistant Chatbot
+# Custom Document Chatbot
 
 This repository contains a custom document chatbot built using Retrieval-Augmented Generation (RAG) with Gemini, deployed on Streamlit. The chatbot is designed to assist users by answering queries based on specific documents.
 
